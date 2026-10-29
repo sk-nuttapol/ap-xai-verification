@@ -1,0 +1,2 @@
+# Keep bytes exactly as published so SHA256SUMS.txt verifies on every OS
+* -text
