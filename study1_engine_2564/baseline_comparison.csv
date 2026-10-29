@@ -1,0 +1,4 @@
+﻿system,cases,decision_accuracy_pct,failed_rule_exact_match_pct,explanation_availability_pct,counterfactual_availability_pct
+EXPLAINABLE_ENGINE,10000,100,100,100,100
+DECISION_TABLE,10000,100,100,0,0
+OPAQUE_RULE_ENGINE,10000,100,NA,0,0

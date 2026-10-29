@@ -1,0 +1,5 @@
+dimension,n,mean,sd,median,rated_4_5_pct
+decision_agreement,251,4.85,0.57,5.0,98.01
+explanation_consistency,249,4.06,0.79,4.0,80.72
+explanation_clarity,251,3.38,0.85,3.0,37.05
+explanation_completeness,251,3.34,0.97,3.0,38.65

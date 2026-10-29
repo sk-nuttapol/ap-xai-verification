@@ -1,0 +1,216 @@
+{
+  "case_code": "REF68-03",
+  "difficulty_a_priori": "EASY",
+  "reference_decision": "INSUFFICIENT_DATA",
+  "system_decision": "INSUFFICIENT_DATA",
+  "participant_view": {
+    "facts_version": "independent-2568-v1",
+    "package_version": "19f60b6395029d5b",
+    "participant": {
+      "case_code": "REF68-03",
+      "position": "ศาสตราจารย์",
+      "rules_text": "แบบที่เลือก: ศ.11\nทางเลือกตามประกาศ: ข้อ 5.3.3 วิธีที่ 1 องค์ประกอบ (1) และ (3)\nกลุ่มสาขา: วิทยาศาสตร์และเทคโนโลยี\nวิธีปกติ\nไม่ใช้บทเปลี่ยนผ่าน\nเกณฑ์ที่เลือก: พ.ศ. 2568 (ฉบับที่ 3)\nองค์ประกอบขั้นต่ำ: ศ. วิธีผลงานที่ 1 ทางเลือกทั่วไป: วิจัย 5 เรื่อง A ในฐานนานาชาติ พร้อมตำรา 1 เล่ม A; วิจัยอย่างน้อย 2 เป็นชื่อแรก/บรรณกิจ และตำรา 1 เป็นชื่อแรก\nไม่ใช้สิทธิทดแทนงานวิจัยเฉพาะสังคมศาสตร์และมนุษยศาสตร์\nการเผยแพร่ที่ใช้ตรวจ: เส้นทาง ศ. ที่เลือกนี้กำหนดงานวิจัยระดับนานาชาติ ในโจทย์ใช้ Scopus; รายการที่ยังรอหลักฐานยังไม่นับว่าได้รับการยืนยันการเผยแพร่",
+      "works": [
+        {
+          "number": 1,
+          "type": "ตำรา",
+          "quality": "A",
+          "role": "ชื่อแรก (ส่วนร่วมขั้นต่ำ 50%)",
+          "contribution_percent": 60,
+          "publication": "ยืนยันเผยแพร่ 15 ก.พ. 2569; ผ่าน peer review จากต่างสถาบัน เผยแพร่เป็นสิ่งพิมพ์อย่างกว้างขวาง"
+        },
+        {
+          "number": 2,
+          "type": "วิจัยวารสาร",
+          "quality": "A",
+          "role": "ชื่อแรก (ร้อยละเป็นข้อมูลประกอบ ไม่ใช้เป็นขั้นต่ำ)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        },
+        {
+          "number": 3,
+          "type": "วิจัยวารสาร",
+          "quality": "A",
+          "role": "ชื่อแรก (ร้อยละเป็นข้อมูลประกอบ ไม่ใช้เป็นขั้นต่ำ)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        },
+        {
+          "number": 4,
+          "type": "วิจัยวารสาร",
+          "quality": "A",
+          "role": "ผู้ประพันธ์ร่วม ไม่ใช่ชื่อแรกและไม่ใช่บรรณกิจ (ร้อยละเป็นข้อมูลประกอบ ไม่ใช้เป็นขั้นต่ำ)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        },
+        {
+          "number": 5,
+          "type": "วิจัยวารสาร",
+          "quality": "A",
+          "role": "ผู้ประพันธ์ร่วม ไม่ใช่ชื่อแรกและไม่ใช่บรรณกิจ (ร้อยละเป็นข้อมูลประกอบ ไม่ใช้เป็นขั้นต่ำ)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        },
+        {
+          "number": 6,
+          "type": "วิจัยวารสาร",
+          "quality": "A",
+          "role": "ผู้ประพันธ์ร่วม ไม่ใช่ชื่อแรกและไม่ใช่บรรณกิจ (ร้อยละเป็นข้อมูลประกอบ ไม่ใช้เป็นขั้นต่ำ)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        }
+      ],
+      "reviewer_votes_pass": 3,
+      "reviewer_total": 3
+    }
+  },
+  "system_explanation": {
+    "decision": "INSUFFICIENT_DATA",
+    "reason": "ผลตรวจองค์ประกอบผลงาน: UNKNOWN; ผลตรวจเสียงประเมิน: MET. ตรวจจากเงื่อนไขสังเคราะห์ที่ประกาศไว้เท่านั้น ไม่ใช่คำอนุมัติตำแหน่งจริง",
+    "evidence_rule_codes": [
+      "APR-018"
+    ],
+    "evidence": [],
+    "scoped_trace": {
+      "scope": "SYNTHETIC_WORK_ASSESSMENT_2568_V1",
+      "decision": "INSUFFICIENT_DATA",
+      "work_checks": {
+        "REF68-03-W1": {
+          "conditions": {
+            "NON_RESEARCH_PARTICIPATION_50": "MET",
+            "publication_evidence": "MET",
+            "peer_review_evidence": "MET",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "course_identified": "MET",
+            "used_in_teaching": "MET",
+            "broad_dissemination": "MET",
+            "textbook_not_unmodified_handout": "MET",
+            "publication_date": "MET"
+          },
+          "admissible": true
+        },
+        "REF68-03-W2": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "JOURNAL_RESEARCH_PARTICIPATION": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "prof_route_international": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        },
+        "REF68-03-W3": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "JOURNAL_RESEARCH_PARTICIPATION": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "prof_route_international": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        },
+        "REF68-03-W4": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "JOURNAL_RESEARCH_PARTICIPATION": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "prof_route_international": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        },
+        "REF68-03-W5": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "JOURNAL_RESEARCH_PARTICIPATION": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "prof_route_international": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        },
+        "REF68-03-W6": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "JOURNAL_RESEARCH_PARTICIPATION": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "prof_route_international": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        }
+      },
+      "quota_result": {
+        "version": "work-alternatives-draft-1",
+        "status": "UNKNOWN",
+        "met_alternatives": [],
+        "unknown_alternatives": [
+          0
+        ],
+        "alternatives": [
+          {
+            "version": "work-quota-draft-3",
+            "scope": "DISJOINT_WORK_CONSTRAINTS_ONLY",
+            "required": 6,
+            "known": {
+              "count": 1,
+              "assignment": {
+                "5": "REF68-03-W1"
+              }
+            },
+            "possible": {
+              "count": 6,
+              "assignment": [
+                "REF68-03-W3",
+                "REF68-03-W2",
+                "REF68-03-W6",
+                "REF68-03-W5",
+                "REF68-03-W4",
+                "REF68-03-W1"
+              ]
+            },
+            "status": "UNKNOWN",
+            "decision": null,
+            "limitations": [
+              "Evidence and journal index lists are supplied facts, not independently verified",
+              "No default percentage or journal policy; caller must resolve field, publication format, revision and applicability",
+              "Does not validate dates or transition provisions",
+              "Quotas represent distinct slots; split role subquotas rather than adding overlapping author-count slots"
+            ]
+          }
+        ],
+        "decision": null,
+        "limitations": [
+          "Alternative allocations only; does not choose a legal method or waive field eligibility",
+          "No evidence can be combined across alternative branches"
+        ]
+      },
+      "vote_check": "MET",
+      "production_ready": false,
+      "limitations": [
+        "Synthetic declared conditions only",
+        "Not a real appointment approval",
+        "Golden answer requires independent expert review"
+      ]
+    }
+  },
+  "counterfactual": {
+    "status": "NOT_IMPLEMENTED_IN_THIS_SCOPE"
+  }
+}

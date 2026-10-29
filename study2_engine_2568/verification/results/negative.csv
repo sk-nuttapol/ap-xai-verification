@@ -1,0 +1,21 @@
+case_id,unit,negative_type,expected,oracle,production,production_exception,pass
+N001,evaluator,POSITION_NOT_MATCHING_ROUTE,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported experiment route",1
+N002,evaluator,UNSUPPORTED_ROUTE,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported experiment route",1
+N003,evaluator,UNSUPPORTED_FIELD,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported experiment route",1
+N004,evaluator,OTHER_FIELDS_ON_UNREVIEWED_ROUTE,REJECT,REJECT,REJECT,"InvalidArgumentException: Unreviewed STEM route",1
+N005,evaluator,APPOINTMENT_MODE_NOT_NORMAL,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported experiment route",1
+N006,evaluator,TRANSITION_REQUESTED,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported experiment route",1
+N007,evaluator,RECEIVED_BEFORE_WINDOW,REJECT,REJECT,REJECT,"InvalidArgumentException: Unsupported receipt date",1
+N008,evaluator,POLICY_REVISION_NOT_2568,REJECT,REJECT,REJECT,"InvalidArgumentException: Work policy unresolved",1
+N009,evaluator,REVIEWER_TOTAL_NOT_3,REJECT,REJECT,REJECT,"InvalidArgumentException: Declared three-voter experiment required",1
+N010,evaluator,VOTES_ABOVE_TOTAL,REJECT,REJECT,REJECT,"InvalidArgumentException: Declared three-voter experiment required",1
+N011,evaluator,EXPERIMENT_CONDITION_FALSE,REJECT,REJECT,REJECT,"InvalidArgumentException: Explicit experiment condition required: valid_three_voter_meeting",1
+N012,evaluator,WRONG_SCOPE,REJECT,REJECT,REJECT,"InvalidArgumentException: Synthetic scope required",1
+N013,evaluator,SUBTYPE_TYPE_MISMATCH,REJECT,REJECT,REJECT,"InvalidArgumentException: Invalid experiment structure",1
+N014,evaluator,RESEARCH_NOT_IN_JOURNAL,REJECT,REJECT,REJECT,"InvalidArgumentException: Work policy unresolved",1
+N015,workpolicy,WORKPOLICY_VALID_CONTEXT,COMPONENTS_INSPECTED,COMPONENTS_INSPECTED,COMPONENTS_INSPECTED,,1
+N016,workpolicy,WORKPOLICY_INVALID_POLICY_REVISION,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,,1
+N017,workpolicy,WORKPOLICY_INVALID_TRANSITION_CHOICE,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,,1
+N018,workpolicy,WORKPOLICY_INVALID_APPOINTMENT_MODE,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,,1
+N019,workpolicy,WORKPOLICY_INVALID_POSITION,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,,1
+N020,workpolicy,WORKPOLICY_INVALID_FIELD,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,SCOPE_REVIEW_REQUIRED,,1

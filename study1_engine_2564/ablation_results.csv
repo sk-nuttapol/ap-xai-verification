@@ -1,0 +1,5 @@
+﻿condition,decision_component,explanation_component,counterfactual_component,decision_accuracy_pct,explanation_availability_pct,counterfactual_availability_pct
+FULL,1,1,1,100,100,100
+NO_EXPLANATION,1,0,1,100,0,100
+NO_COUNTERFACTUAL,1,1,0,100,100,0
+DECISION_ONLY,1,0,0,100,0,0

@@ -1,0 +1,195 @@
+{
+    "engine_scope": "SYNTHETIC_WORK_ASSESSMENT_2568_V1",
+    "app": "engine_src (two expected-hash literals replaced; see README)",
+    "php": "8.3.6",
+    "run_at": "2026-10-29T02:48:49+00:00",
+    "source_sha256": {
+        "includes/Research2568MixedPreviewEvaluator.php": "599f61df363e39fb9b61355e9905c5e6f6bd1ff8e70bef0d9ca1d4d918f4c018",
+        "includes/Research2568WorkPolicyDraft.php": "607868f0555645b1daa67ef87ab1bf713094ea80ff5d2a1d16605ea72e001fdc",
+        "includes/ResearchDraftWorkQuotas.php": "eae474b13e85aa5d33cd1992879b3206de1871c7275b3d08e54baaafdd379a32",
+        "config/research_reference_component_drafts.php": "0ae83531be1dd6474cbfb52b7265d470ab081b218af4efad3177af49030b0459",
+        "includes/Research2568StructureDraft.php": "235b0f0648874b52f112e0d708a5fbeee9c2cae7d2b6d3383d688bda75e1d726"
+    },
+    "seeds": [
+        2026102901,
+        2026102902,
+        2026102903,
+        2026102904,
+        2026102905
+    ],
+    "cases_per_seed": 2000,
+    "cases_total": 10000,
+    "decision_agreement": [
+        10000,
+        10000
+    ],
+    "trace_agreement": [
+        10000,
+        10000
+    ],
+    "route_outcome_cells": [
+        27,
+        27
+    ],
+    "boundary_assertions": [
+        458,
+        458
+    ],
+    "negative_assertions": [
+        20,
+        20
+    ],
+    "boundary_by_type": {
+        "BASE_PASS": {
+            "n": 11,
+            "pass": 11
+        },
+        "VOTES_AT_2": {
+            "n": 11,
+            "pass": 11
+        },
+        "VOTES_BELOW_2": {
+            "n": 11,
+            "pass": 11
+        },
+        "VOTES_MISSING": {
+            "n": 11,
+            "pass": 11
+        },
+        "DATE_AT_WINDOW_START": {
+            "n": 11,
+            "pass": 11
+        },
+        "DATE_BEFORE_WINDOW": {
+            "n": 11,
+            "pass": 11
+        },
+        "DATE_AT_RECEIPT": {
+            "n": 11,
+            "pass": 11
+        },
+        "DATE_AFTER_RECEIPT": {
+            "n": 11,
+            "pass": 11
+        },
+        "DATE_MISSING": {
+            "n": 11,
+            "pass": 11
+        },
+        "COUNT_MINUS_ONE": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_FALSE_publication_evidence": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_NULL_publication_evidence": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_FALSE_peer_review_evidence": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_NULL_peer_review_evidence": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_FALSE_participation_certified": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_NULL_participation_certified": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_FALSE_definition_verified": {
+            "n": 11,
+            "pass": 11
+        },
+        "EVIDENCE_NULL_definition_verified": {
+            "n": 11,
+            "pass": 11
+        },
+        "QUALITY_MISSING": {
+            "n": 31,
+            "pass": 31
+        },
+        "ROLE_NOT_MET": {
+            "n": 16,
+            "pass": 16
+        },
+        "ROLE_CORRESPONDING_ONLY": {
+            "n": 16,
+            "pass": 16
+        },
+        "ROLE_MISSING": {
+            "n": 16,
+            "pass": 16
+        },
+        "INDEX_NONE": {
+            "n": 20,
+            "pass": 20
+        },
+        "INDEX_MISSING": {
+            "n": 20,
+            "pass": 20
+        },
+        "LEVEL_NATIONAL_TCI1": {
+            "n": 20,
+            "pass": 20
+        },
+        "LEVEL_NATIONAL_TCI2": {
+            "n": 20,
+            "pass": 20
+        },
+        "NO_PARTICIPATION": {
+            "n": 16,
+            "pass": 16
+        },
+        "FIELD_OTHER": {
+            "n": 4,
+            "pass": 4
+        },
+        "EXTRA_WORK": {
+            "n": 11,
+            "pass": 11
+        },
+        "CONTRIBUTION_49": {
+            "n": 15,
+            "pass": 15
+        },
+        "CONTRIBUTION_MISSING": {
+            "n": 15,
+            "pass": 15
+        },
+        "CASES_4": {
+            "n": 7,
+            "pass": 7
+        },
+        "PAGES_79": {
+            "n": 7,
+            "pass": 7
+        },
+        "NONJOURNAL_TYPE_WITH_JOURNAL_FORMAT": {
+            "n": 10,
+            "pass": 10
+        },
+        "QUALITY_BELOW_MIN": {
+            "n": 16,
+            "pass": 16
+        }
+    },
+    "mutation": {
+        "generated": 292,
+        "stillborn": 0,
+        "killed": 262,
+        "survived": 30,
+        "timeout": 0,
+        "survived_hint_equivalent": 30,
+        "non_stillborn": 292,
+        "raw_score_killed_over_non_stillborn": 0.8973,
+        "note": "Survivors must be reviewed manually; those proven equivalent over the valid input domain are excluded from the final denominator."
+    }
+}

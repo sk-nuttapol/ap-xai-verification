@@ -1,0 +1,9 @@
+characteristic,value,HR_POLICY,IS_XAI
+experience_band,3_5,4,5
+experience_band,6_10,4,5
+experience_band,GT_15,2,1
+rule_xai_experience,LOW,0,2
+rule_xai_experience,MEDIUM,5,3
+rule_xai_experience,NONE,5,6
+prior_review_experience,NEVER,10,9
+prior_review_experience,YES,0,2

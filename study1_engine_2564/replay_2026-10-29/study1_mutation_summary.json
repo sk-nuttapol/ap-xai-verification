@@ -1,0 +1,10 @@
+{
+    "mutants": 363,
+    "tests": 1008,
+    "killed": 333,
+    "survived": 30,
+    "equivalent": 30,
+    "unexplained_survivors": 0,
+    "score": "333\/333",
+    "php": "8.3.6"
+}

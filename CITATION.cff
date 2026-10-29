@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the article and this software."
+title: "Reproducibility package: explainable rule-based decision support for academic-promotion screening"
+type: software
+version: "1.0.0"
+date-released: "2026-10-29"
+license: MIT
+authors:
+  - family-names: "Saenkham"
+    given-names: "Nuttapol"
+    affiliation: "Buriram Rajabhat University"
+    email: "nuttapol.sk@bru.ac.th"
+    orcid: "https://orcid.org/0009-0005-2346-6561"
+  - family-names: "Jeewattana"
+    given-names: "Somsak"
+    affiliation: "Buriram Rajabhat University"
+    orcid: "https://orcid.org/0000-0002-4464-9253"
+keywords:
+  - explainable AI
+  - rule-based decision support
+  - mutation testing
+  - test oracle
+  - rules as code

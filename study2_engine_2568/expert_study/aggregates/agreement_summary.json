@@ -1,0 +1,16 @@
+{
+  "judgments": 252,
+  "agreements": 244,
+  "agreement": 0.9682539682539683,
+  "crossed_bootstrap_95ci": [
+    0.9166666666666666,
+    1.0
+  ],
+  "fleiss_kappa": 0.9058144485972462,
+  "gwet_ac1": 0.9060211957419688,
+  "observed_pairwise_agreement": 0.9373015873015872,
+  "group_difference": 0.012878787878787823,
+  "permutation_p": 1.0,
+  "experts_complete": 21,
+  "experts_all_correct": 18
+}

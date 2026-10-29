@@ -1,0 +1,87 @@
+{
+    "seeds": [
+        {
+            "seed": 2026080201,
+            "replayed_batch_hash": "60fca0d4743d865178105b10e5aab4cc8bfb87da4d5cb2189bf04f1f7e430134",
+            "recorded_batch_hash": "60fca0d4743d865178105b10e5aab4cc8bfb87da4d5cb2189bf04f1f7e430134",
+            "hash_match": true,
+            "decision_agreement": "2000\/2000",
+            "pass_pct": 38.3,
+            "fail_pct": 42.2,
+            "insufficient_pct": 19.5,
+            "recorded_pct": [
+                "38.3",
+                "42.2",
+                "19.5"
+            ]
+        },
+        {
+            "seed": 2026080202,
+            "replayed_batch_hash": "0b0cd323a3450a6cba2508e282b2baddca2f768670da1f4e64e481aae5fa9c98",
+            "recorded_batch_hash": "0b0cd323a3450a6cba2508e282b2baddca2f768670da1f4e64e481aae5fa9c98",
+            "hash_match": true,
+            "decision_agreement": "2000\/2000",
+            "pass_pct": 37.1,
+            "fail_pct": 41.7,
+            "insufficient_pct": 21.2,
+            "recorded_pct": [
+                "37.1",
+                "41.7",
+                "21.2"
+            ]
+        },
+        {
+            "seed": 2026080203,
+            "replayed_batch_hash": "0ccad9f7bb44471b5477a90271879cf04e12c0291aeadb736add63d17dcdf5c9",
+            "recorded_batch_hash": "0ccad9f7bb44471b5477a90271879cf04e12c0291aeadb736add63d17dcdf5c9",
+            "hash_match": true,
+            "decision_agreement": "2000\/2000",
+            "pass_pct": 35,
+            "fail_pct": 43.2,
+            "insufficient_pct": 21.8,
+            "recorded_pct": [
+                "35",
+                "43.2",
+                "21.8"
+            ]
+        },
+        {
+            "seed": 2026080204,
+            "replayed_batch_hash": "cdcc0001f90adadef2e073f683e2497352dcb8d42d6b70212a65ba3aa970d592",
+            "recorded_batch_hash": "cdcc0001f90adadef2e073f683e2497352dcb8d42d6b70212a65ba3aa970d592",
+            "hash_match": true,
+            "decision_agreement": "2000\/2000",
+            "pass_pct": 35.9,
+            "fail_pct": 43.25,
+            "insufficient_pct": 20.85,
+            "recorded_pct": [
+                "35.9",
+                "43.25",
+                "20.85"
+            ]
+        },
+        {
+            "seed": 2026080205,
+            "replayed_batch_hash": "53133aab298f187a3b4e31bf8348332839fc6fb1bc8dda99364a3010c619993d",
+            "recorded_batch_hash": "53133aab298f187a3b4e31bf8348332839fc6fb1bc8dda99364a3010c619993d",
+            "hash_match": true,
+            "decision_agreement": "2000\/2000",
+            "pass_pct": 36.75,
+            "fail_pct": 41.65,
+            "insufficient_pct": 21.6,
+            "recorded_pct": [
+                "36.75",
+                "41.65",
+                "21.6"
+            ]
+        }
+    ],
+    "cases": 10000,
+    "decision_agreement": "10000\/10000",
+    "trace_agreement": "10000\/10000",
+    "coverage_cells_populated": 165,
+    "coverage_cells_all_agree": 165,
+    "boundary_assertions": "990\/990",
+    "boundary_assertions_per_seed": 198,
+    "php": "8.3.6"
+}

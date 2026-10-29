@@ -1,0 +1,9 @@
+﻿evaluation,batch_id,case_no,failure_mode,detected,detail
+OBSERVED_SUMMARY,,,NONE_OBSERVED_IN_MULTI_SEED_RUNS,0,"No natural failure was observed; see controlled fault-injection rows."
+CONTROLLED_FAULT_INJECTION,,,WRONG_DECISION,1,"independent oracle comparison"
+CONTROLLED_FAULT_INJECTION,,,WRONG_FAILED_RULE,1,"failed-rule exact-match comparison"
+CONTROLLED_FAULT_INJECTION,,,MISSING_EXPLANATION,1,"artifact availability check"
+CONTROLLED_FAULT_INJECTION,,,MISSING_COUNTERFACTUAL,1,"artifact availability check"
+CONTROLLED_FAULT_INJECTION,,,INVALID_COUNTERFACTUAL_TARGET,1,"target/result consistency check"
+CONTROLLED_FAULT_INJECTION,,,NON_MINIMAL_COUNTERFACTUAL,1,"changed-feature threshold check"
+CONTROLLED_FAULT_INJECTION,,,TAMPERED_PACKAGE_FILE,1,"SHA-256 manifest check"

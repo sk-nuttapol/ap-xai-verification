@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.invalid/research/independent-oracle-input-1.0.0.schema.json",
+    "title": "Independent oracle input",
+    "type": "object",
+    "required": [
+        "eligible_work_count",
+        "first_author_count",
+        "missing_data",
+        "conflicting_grade_and_score"
+    ],
+    "properties": {
+        "eligible_work_count": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "first_author_count": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "quality_code": {
+            "type": "string"
+        },
+        "reviewer_votes_pass": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "reviewer_total": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "missing_data": {
+            "type": "boolean"
+        },
+        "conflicting_grade_and_score": {
+            "type": "boolean"
+        },
+        "irrelevant_nonce": {
+            "type": "integer"
+        }
+    },
+    "additionalProperties": false
+}

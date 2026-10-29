@@ -1,0 +1,152 @@
+{
+  "case_code": "REF68-09",
+  "difficulty_a_priori": "HARD",
+  "reference_decision": "INSUFFICIENT_DATA",
+  "system_decision": "INSUFFICIENT_DATA",
+  "participant_view": {
+    "facts_version": "independent-2568-v1",
+    "package_version": "19f60b6395029d5b",
+    "participant": {
+      "case_code": "REF68-09",
+      "position": "ผู้ช่วยศาสตราจารย์",
+      "rules_text": "แบบที่เลือก: ผศ.4\nทางเลือกตามประกาศ: ข้อ 5.1.4 (2) ประกอบวรรคสิทธิทดแทนสำหรับสังคมศาสตร์/มนุษยศาสตร์\nสาขา: สังคมศาสตร์และมนุษยศาสตร์\nวิธีปกติ\nไม่ใช้บทเปลี่ยนผ่าน\nเกณฑ์ที่เลือก: พ.ศ. 2568 (ฉบับที่ 3)\nกรณีนี้เลือกใช้บทความทางวิชาการระดับ A แทนงานวิจัย ไม่ใช้ทางเลือกทดแทนอื่น\nองค์ประกอบขั้นต่ำ: ทางเลือกสังคมศาสตร์/มนุษยศาสตร์: ผลงานอื่นอย่างน้อย 1 รายการ B และบทความทางวิชาการอย่างน้อย 1 เรื่อง A แทนวิจัย; อย่างน้อย 1 ผลงานเป็นชื่อแรก\nการเผยแพร่ที่ใช้ตรวจ: งานวิจัยวารสารระดับชาติในกรณีนี้ระบุ TCI กลุ่ม 1; การนับผลงานต้องมีหลักฐานการเผยแพร่และ peer review ตามสถานะที่ระบุรายชิ้น",
+      "works": [
+        {
+          "number": 1,
+          "type": "ชุดกรณีศึกษา 5 กรณี 100 หน้า",
+          "quality": "A",
+          "role": "ผู้ประพันธ์ร่วม ไม่ใช่ชื่อแรกและไม่ใช่บรรณกิจ (ส่วนร่วมขั้นต่ำ 50%)",
+          "contribution_percent": 60,
+          "publication": "ยืนยันเผยแพร่ 15 ก.พ. 2569; ผ่าน peer review จากต่างสถาบัน เผยแพร่เป็นสิ่งพิมพ์อย่างกว้างขวาง"
+        },
+        {
+          "number": 2,
+          "type": "บทความทางวิชาการ",
+          "quality": "A",
+          "role": "ชื่อแรก (ส่วนร่วมขั้นต่ำ 50%)",
+          "contribution_percent": 60,
+          "publication": "ยังไม่ได้รับหลักฐานยืนยันการเผยแพร่ วันเผยแพร่ และ peer review"
+        }
+      ],
+      "reviewer_votes_pass": 2,
+      "reviewer_total": 3
+    }
+  },
+  "system_explanation": {
+    "decision": "INSUFFICIENT_DATA",
+    "reason": "ผลตรวจองค์ประกอบผลงาน: UNKNOWN; ผลตรวจเสียงประเมิน: MET. ตรวจจากเงื่อนไขสังเคราะห์ที่ประกาศไว้เท่านั้น ไม่ใช่คำอนุมัติตำแหน่งจริง",
+    "evidence_rule_codes": [
+      "APR-007"
+    ],
+    "evidence": [],
+    "scoped_trace": {
+      "scope": "SYNTHETIC_WORK_ASSESSMENT_2568_V1",
+      "decision": "INSUFFICIENT_DATA",
+      "work_checks": {
+        "REF68-09-W1": {
+          "conditions": {
+            "NON_RESEARCH_PARTICIPATION_50": "MET",
+            "publication_evidence": "MET",
+            "peer_review_evidence": "MET",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "teaching_notes": "MET",
+            "used_in_teaching": "MET",
+            "non_overlapping_cases": "MET",
+            "whole_collection_review": "MET",
+            "case_count": "MET",
+            "page_count": "MET",
+            "publication_date": "MET"
+          },
+          "admissible": true
+        },
+        "REF68-09-W2": {
+          "conditions": {
+            "JOURNAL_INDEX": "UNKNOWN",
+            "NON_RESEARCH_PARTICIPATION_50": "MET",
+            "publication_evidence": "UNKNOWN",
+            "peer_review_evidence": "UNKNOWN",
+            "participation_certified": "MET",
+            "definition_verified": "MET",
+            "publication_date": "UNKNOWN"
+          },
+          "admissible": null
+        }
+      },
+      "quota_result": {
+        "version": "work-alternatives-draft-1",
+        "status": "UNKNOWN",
+        "met_alternatives": [],
+        "unknown_alternatives": [
+          1
+        ],
+        "alternatives": [
+          {
+            "version": "work-quota-draft-3",
+            "scope": "DISJOINT_WORK_CONSTRAINTS_ONLY",
+            "required": 2,
+            "known": {
+              "count": 0,
+              "assignment": []
+            },
+            "possible": {
+              "count": 1,
+              "assignment": {
+                "1": "REF68-09-W2"
+              }
+            },
+            "status": "KNOWN_SHORTFALL",
+            "decision": null,
+            "limitations": [
+              "Evidence and journal index lists are supplied facts, not independently verified",
+              "No default percentage or journal policy; caller must resolve field, publication format, revision and applicability",
+              "Does not validate dates or transition provisions",
+              "Quotas represent distinct slots; split role subquotas rather than adding overlapping author-count slots"
+            ]
+          },
+          {
+            "version": "work-quota-draft-3",
+            "scope": "DISJOINT_WORK_CONSTRAINTS_ONLY",
+            "required": 2,
+            "known": {
+              "count": 1,
+              "assignment": [
+                "REF68-09-W1"
+              ]
+            },
+            "possible": {
+              "count": 2,
+              "assignment": [
+                "REF68-09-W1",
+                "REF68-09-W2"
+              ]
+            },
+            "status": "UNKNOWN",
+            "decision": null,
+            "limitations": [
+              "Evidence and journal index lists are supplied facts, not independently verified",
+              "No default percentage or journal policy; caller must resolve field, publication format, revision and applicability",
+              "Does not validate dates or transition provisions",
+              "Quotas represent distinct slots; split role subquotas rather than adding overlapping author-count slots"
+            ]
+          }
+        ],
+        "decision": null,
+        "limitations": [
+          "Alternative allocations only; does not choose a legal method or waive field eligibility",
+          "No evidence can be combined across alternative branches"
+        ]
+      },
+      "vote_check": "MET",
+      "production_ready": false,
+      "limitations": [
+        "Synthetic declared conditions only",
+        "Not a real appointment approval",
+        "Golden answer requires independent expert review"
+      ]
+    }
+  },
+  "counterfactual": {
+    "status": "NOT_IMPLEMENTED_IN_THIS_SCOPE"
+  }
+}
