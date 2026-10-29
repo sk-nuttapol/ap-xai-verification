@@ -5,6 +5,14 @@ type: software
 version: "1.0.0"
 date-released: "2026-10-29"
 license: MIT
+doi: "10.5281/zenodo.23756467"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23756467"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23756468"
+    description: "Version 1.0.0"
 repository-code: "https://github.com/sk-nuttapol/ap-xai-verification"
 authors:
   - family-names: "Saenkham"
