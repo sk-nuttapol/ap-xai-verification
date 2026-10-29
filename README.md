@@ -1,6 +1,6 @@
 # Reproducibility package: explainable rule-based decision support for academic-promotion screening
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23756468.svg)](https://doi.org/10.5281/zenodo.23756468)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23756467.svg)](https://doi.org/10.5281/zenodo.23756467)
 
 Companion package for the manuscript *"Reproducible validation of an explainable rule-based decision support system: oracle conformance, exhaustive mutation analysis, and blinded expert judgment in academic-promotion screening"*.
 

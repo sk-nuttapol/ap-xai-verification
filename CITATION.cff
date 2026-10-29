@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this package, please cite the article and this software."
 title: "Reproducibility package: explainable rule-based decision support for academic-promotion screening"
 type: software
-version: "1.0.0"
+version: "1.1.0"
 date-released: "2026-10-29"
 license: MIT
 doi: "10.5281/zenodo.23756467"
@@ -13,6 +13,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23756468"
     description: "Version 1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.23758892"
+    description: "Version 1.1.0"
 repository-code: "https://github.com/sk-nuttapol/ap-xai-verification"
 authors:
   - family-names: "Saenkham"
