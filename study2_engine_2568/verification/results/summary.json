@@ -1,14 +1,14 @@
 {
     "engine_scope": "SYNTHETIC_WORK_ASSESSMENT_2568_V1",
-    "app": "engine_src (two expected-hash literals replaced; see README)",
+    "app": "\/tmp\/claude-0\/-home-claude\/d144a85b-ebd2-5651-bae5-e02eae2307b7\/scratchpad\/clone\/repo\/study2_engine_2568\/engine_src",
     "php": "8.3.6",
-    "run_at": "2026-10-29T02:48:49+00:00",
+    "run_at": "2026-10-29T09:14:46+00:00",
     "source_sha256": {
-        "includes/Research2568MixedPreviewEvaluator.php": "599f61df363e39fb9b61355e9905c5e6f6bd1ff8e70bef0d9ca1d4d918f4c018",
-        "includes/Research2568WorkPolicyDraft.php": "607868f0555645b1daa67ef87ab1bf713094ea80ff5d2a1d16605ea72e001fdc",
-        "includes/ResearchDraftWorkQuotas.php": "eae474b13e85aa5d33cd1992879b3206de1871c7275b3d08e54baaafdd379a32",
-        "config/research_reference_component_drafts.php": "0ae83531be1dd6474cbfb52b7265d470ab081b218af4efad3177af49030b0459",
-        "includes/Research2568StructureDraft.php": "235b0f0648874b52f112e0d708a5fbeee9c2cae7d2b6d3383d688bda75e1d726"
+        "includes\/Research2568MixedPreviewEvaluator.php": "599f61df363e39fb9b61355e9905c5e6f6bd1ff8e70bef0d9ca1d4d918f4c018",
+        "includes\/Research2568WorkPolicyDraft.php": "3475cf0c4abe83b13bbab2367cf97cd5fde16ee52a065d14369a60aa9c970fe6",
+        "includes\/ResearchDraftWorkQuotas.php": "eae474b13e85aa5d33cd1992879b3206de1871c7275b3d08e54baaafdd379a32",
+        "config\/research_reference_component_drafts.php": "f2179686e4a6dbe9fa74469ff7de081cf2e592b05ea3dd201cffca025385b5c3",
+        "includes\/Research2568StructureDraft.php": "235b0f0648874b52f112e0d708a5fbeee9c2cae7d2b6d3383d688bda75e1d726"
     },
     "seeds": [
         2026102901,

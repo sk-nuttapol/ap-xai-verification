@@ -32,18 +32,20 @@ Expected results: every recorded batch hash in `multi_seed_results.csv` is repro
 
 ## Reproducing the Study 2 verification
 
-Requirements: PHP ≥ 8.2 with the tokenizer extension.
+Requirements: PHP ≥ 8.2 with the tokenizer extension. No database or network access is needed.
 
-The engine checks the SHA-256 of two regulation PDFs (the B.E. 2564 criteria and the B.E. 2568 No. 3 amendment, published in the Royal Thai Government Gazette). Place them at `engine_src/outputs/เกณฑ์/2564.pdf` and `engine_src/outputs/เกณฑ์/2568-3-1.pdf`. The expected digests are in `engine_src/config/research_reference_component_drafts.php` and `engine_src/includes/Research2568WorkPolicyDraft.php`.
+The engine refuses to decide unless the SHA-256 digests of the two source regulations match the literals in its code. Both PDFs are therefore included, byte-identical to the copies used in production: `engine_src/outputs/เกณฑ์/2564.pdf` (B.E. 2564 criteria, SHA-256 154410e8…2d27e) and `engine_src/outputs/เกณฑ์/2568-3-1.pdf` (B.E. 2568 No. 3 amendment, SHA-256 c9fbab10…4289b). They are announcements of the Civil Service Commission in Higher Education Institutions published in the Royal Thai Government Gazette and are not subject to copyright under section 7 of the Thai Copyright Act B.E. 2537 (1994).
+
+From the package root:
 
 ```bash
 php study2_engine_2568/verification/verify_2568_scoped_engine.php \
     --app=study2_engine_2568/engine_src --out=./verify_out
 ```
 
-Defaults: seeds 2026102901–2026102905, 2,000 cases per seed, mutation on 458 boundary + 20 negative + 2,000 generated cases. A full run takes about 3 minutes on a laptop. **Run it in an isolated environment, never inside a production container**: it is CPU-intensive.
+Defaults: seeds 2026102901–2026102905, 2,000 cases per seed, mutation on 458 boundary + 20 negative + 2,000 generated cases. A full run takes about 2–3 minutes on a laptop. **Run it in an isolated environment, never inside a production container**: it is CPU-intensive.
 
-Expected results (`verification/results/summary.md`): decision and trace agreement 10,000/10,000; 27/27 route × outcome cells; 458/458 boundary and 20/20 negative assertions; 292 mutants, 262 killed, 30 equivalent (each justified in `mutants_reviewed.csv`), mutation score 262/262.
+Expected results (`verification/results/summary.md`): decision and trace agreement 10,000/10,000; 27/27 route × outcome cells; 458/458 boundary and 20/20 negative assertions; 292 mutants, 262 killed, 30 surviving and reviewed as equivalent in `mutants_reviewed.csv`, mutation score 262/262. The files `boundary.csv`, `cases.csv`, `coverage_conditions.csv`, `coverage_route_outcome.csv`, `disagreements.json`, `negative.csv`, and `seeds.csv` are reproduced byte for byte; `summary.json` and `summary.md` differ only in the run timestamp.
 
 ## Source integrity (scoped 2025 engine)
 
@@ -54,10 +56,12 @@ Expected results (`verification/results/summary.md`): decision and trace agreeme
 | includes/ResearchDraftWorkQuotas.php | eae474b13e85aa5d33cd1992879b3206de1871c7275b3d08e54baaafdd379a32 |
 | includes/Research2568StructureDraft.php | 235b0f0648874b52f112e0d708a5fbeee9c2cae7d2b6d3383d688bda75e1d726 |
 | config/research_reference_component_drafts.php | f2179686e4a6dbe9fa74469ff7de081cf2e592b05ea3dd201cffca025385b5c3 |
+| outputs/เกณฑ์/2564.pdf | 154410e89c4fc76598b702e51ed130f297208712fda25d07d34b60292fe2d27e |
+| outputs/เกณฑ์/2568-3-1.pdf | c9fbab10667fafd735e8bb5555a1b0235101562034bffd52f2cd514162d4289b |
 
-The published results in `verification/results/` were produced on these sources with one difference: the regulation PDFs were not available on the analysis machine, so the two expected-hash literals were replaced by digests of placeholder files (hence the different digests for those two files in `summary.json`). Inside the production container, the unmodified sources gave 1,000/1,000 oracle agreement and 458/458 boundary assertions.
+These are the sources deployed in production. The results in `verification/results/` (package v1.2.0 and later) were produced on exactly these files, so `summary.json` lists the same digests.
 
-`SHA256SUMS.txt` at the package root covers every file.
+**Provenance note.** In package versions up to v1.1.0 the regulation PDFs were not included, and the published results had been produced with the two expected-hash literals replaced by digests of placeholder files. The original summaries are kept as `results/archive/summary_placeholder_pdf_run.{json,md}`. Re-running the unmodified sources with the real PDFs gave byte-identical case, boundary, coverage, negative-test, and seed files and the same mutation outcome. Version v1.2.0 also fixes a harness bug that made a relative `--app` path fail, and removes a PHP 8.3 deprecation warning; neither change affects any result.
 
 ## Licence
 

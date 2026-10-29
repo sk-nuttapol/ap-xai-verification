@@ -36,6 +36,7 @@ $opt = getopt('', ['app:','out:','cases:','seeds:','mutation-cases:','skip-mutat
     'run-suite:','suffix:','suite:','result:']);
 if (isset($opt['run-suite'])) { exit(runSuiteChild($opt['run-suite'], $opt['suffix'] ?? '', $opt['suite'], $opt['result'])); }
 $app   = rtrim($opt['app'] ?? dirname(__DIR__), '/');
+$app   = realpath($app) ?: $app; // absolute, so the outputs/ symlink inside the temporary root resolves
 $out   = $opt['out'] ?? (getcwd().'/verify_2568_'.date('Ymd_His'));
 $nCase = (int)($opt['cases'] ?? 2000);
 $seeds = array_map('intval', explode(',', $opt['seeds'] ?? '2026102901,2026102902,2026102903,2026102904,2026102905'));
@@ -206,7 +207,7 @@ function v2568_cached_hash_file(string $algo, string $path): string|false {
     static $cache = []; $k = $algo.'|'.$path;
     return $cache[$k] ??= hash_file($algo, $path);
 }
-function fmt_s(float $s): string { return $s >= 3600 ? sprintf('%dh%02dm', $s / 3600, ($s % 3600) / 60) : ($s >= 60 ? sprintf('%dm%02ds', $s / 60, $s % 60) : sprintf('%.1fs', $s)); }
+function fmt_s(float $s): string { $i = (int) $s; return $s >= 3600 ? sprintf('%dh%02dm', intdiv($i, 3600), intdiv($i % 3600, 60)) : ($s >= 60 ? sprintf('%dm%02ds', intdiv($i, 60), $i % 60) : sprintf('%.1fs', $s)); }
 function fail(string $s): never { logln("ERROR: $s"); exit(1); }
 function csv(string $path, array $head, array $rows): void {
     $h = fopen($path, 'w'); fputcsv($h, $head, ',', '"', ''); foreach ($rows as $r) fputcsv($h, $r, ',', '"', ''); fclose($h);

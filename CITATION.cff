@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this package, please cite the article and this software."
 title: "Reproducibility package: explainable rule-based decision support for academic-promotion screening"
 type: software
-version: "1.1.0"
+version: "1.2.0"
 date-released: "2026-10-29"
 license: MIT
 doi: "10.5281/zenodo.23756467"
