@@ -2,9 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23756467.svg)](https://doi.org/10.5281/zenodo.23756467)
 
-Companion package for the manuscript *"Reproducible validation of an explainable rule-based decision support system: oracle conformance, exhaustive mutation analysis, and blinded expert judgment in academic-promotion screening"*.
+The manuscript cites version 1.2.0: [10.5281/zenodo.23760799](https://doi.org/10.5281/zenodo.23760799). The badge above is the concept DOI, which always resolves to the latest version.
 
-All cases in this package are **synthetic**. The package contains no applicant records, no personnel data and no expert-level responses. Expert results are given as aggregates only, in line with the study's exemption determination and consent terms.
+Companion package for the manuscript *"Verifying a rules-as-code decision engine across a regulatory amendment: independent oracles, exhaustive mutation analysis, and blinded expert judgment"* (submitted to *Information and Software Technology*).
+
+All cases in this package are **synthetic**. The package contains no applicant records, no personnel data and no expert-level responses. Expert results are given as aggregates only, in line with the study's ethics certification (Human Research Ethics Subcommittee for Exempt and Expedited Review, Buriram Rajabhat University, project BRU 140/2569) and consent terms.
 
 ## Contents
 
