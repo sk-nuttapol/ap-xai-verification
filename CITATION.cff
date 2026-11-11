@@ -19,6 +19,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.23760799"
     description: "Version 1.2.0"
+  - type: doi
+    value: "10.5281/zenodo.24130963"
+    description: "Version 1.2.1"
 repository-code: "https://github.com/sk-nuttapol/ap-xai-verification"
 authors:
   - family-names: "Saenkham"

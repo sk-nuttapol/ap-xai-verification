@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23756467.svg)](https://doi.org/10.5281/zenodo.23756467)
 
-The manuscript cites version 1.2.0: [10.5281/zenodo.23760799](https://doi.org/10.5281/zenodo.23760799). The badge above is the concept DOI, which always resolves to the latest version.
+The manuscript cites version 1.2.1: [10.5281/zenodo.24130963](https://doi.org/10.5281/zenodo.24130963). Version 1.2.1 adds `rv_ci.py` to the analyses of version 1.2.0 ([10.5281/zenodo.23760799](https://doi.org/10.5281/zenodo.23760799)), whose code and results are unchanged. The badge above is the concept DOI, which always resolves to the latest version.
 
 Companion package for the manuscript *"Verifying a rules-as-code decision engine across a regulatory amendment: independent oracles, exhaustive mutation analysis, and blinded expert judgment"* (submitted to *Information and Software Technology*).
 
